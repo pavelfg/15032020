@@ -7,5 +7,11 @@
 - 'diff' : look at differences between 2 commit states 
 - 'log' : look at the history
     + 'log --oneline' : only get  the oneline  view  
+    + 'log  --oneline --all --graph --decorate' : see everything in history
+- 'checkout <hash> <file>' : restore a single file from a point in history
+-  'checkout <hash>': restore the entire folder to that point in time
+
 - index/stagging area: files in here will be commited
 This is my first file to check GIT
+
+- HEAD : where you are looking at in git hisotry
