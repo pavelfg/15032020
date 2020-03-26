@@ -15,3 +15,11 @@
 This is my first file to check GIT
 
 - HEAD : where you are looking at in git hisotry
+
+- 'remote' : anything you didnt init or clone
+    - 'remote add origin <URL> ' : Adds the url as remote named origin
+    - 'remote -v' : see your remotes
+    
+- 'push' : send code to our remote
+- 'pull' : get code frrom our remote (does a fetch and merge)
+
